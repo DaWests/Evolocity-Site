@@ -1,0 +1,479 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body { background: url(images/christopher-burns-Wiu3w-99tNg-unsplash.jpg); }
+
+header {
+  background-color: #7B1E8C;
+  color: white;
+  padding: 10px 30px;
+  display: flex;
+  align-items: baseline;
+  top: 0;
+  width: 100%
+}
+
+header h1 {
+    color: white;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+header nav a {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  display: inline-block;
+  color: white;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 10px;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+header nav a:hover {
+  color: lightblue;
+  border-color: lightblue;
+}
+
+ .logo-image img{
+    
+    width: 130px;
+    height: 80px;
+    overflow: hidden;
+    margin-top: -10px;
+}
+
+
+.donate {
+    
+}
+
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  opacity: 0.8;
+  background-color: black;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-top: 2%;
+  width: 80%;
+  box-sizing: border-box;
+  outline:0;
+
+}
+
+.feedback-input:focus { border:2px solid #7B1E8C; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#7B1E8C;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top: 4px;
+  font-weight:700;
+}
+
+
+[type="submit"]:hover { background:#c342cf; }
+
+.donate-button a {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:600;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: #7B1E8C;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 15px;
+  width:100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+p {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+h1 {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h2 {
+
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 24px;
+  line-height: 22px;
+  text-align: center;
+  background-color: transparent;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 13px;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: 5%;
+  width:80%;
+  box-sizing: content-box;
+  outline:0;
+
+}
+
+
+.boxed-images img {
+  border:2px solid #7B1E8C;
+  width: 60%;
+}
+
+input {
+    width:80%;
+}
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  opacity: 0.8;
+  background-color: black;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-top: 2%;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+
+}
+
+.feedback-input:focus { border:2px solid #7B1E8C; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#7B1E8C;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top: 4px;
+  font-weight:700;
+}
+
+.feedback-confirmation a {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#7B1E8C;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top: 4px;
+  margin-left: 35%;
+  font-weight:700;
+  text-decoration: none;
+}
+
+header {
+  background: #7B1E8C;
+  color: white;
+}
+
+header .container {
+  display: flex;
+  align-items: baseline;
+}
+
+header .menu-button {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+
+  header .menu-button {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  header nav {
+  margin: 0;
+  padding: 10;
+  overflow: hidden;
+  background-color: #7B1E8C;
+  position: fixed;
+  top: 0;
+  width: 100%
+  }
+
+  header nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  }
+
+  header .container {
+    flex-wrap: wrap;
+  }
+
+  header nav.hide-on-mobile {
+  display: none;
+  }
+
+}
+
+/* @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body { background: url(images/christopher-burns-Wiu3w-99tNg-unsplash.jpg); }
+form { max-width:420px; margin:50px auto; }
+
+/* nav bar 
+
+@media only screen and (max-width: 500px) {
+    
+header nav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #7B1E8C;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+header nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  background-color: #9F53AD;
+}
+
+
+header .container {
+  flex-wrap: wrap;
+}
+
+header nav.hide-on-mobile {
+  display: none;
+}
+
+}
+ .logo-image img{
+    
+    width: 130px;
+    height: 80px;
+    overflow: hidden;
+    margin-top: -10px;
+}
+
+
+.donate {
+    
+}
+
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  opacity: 0.8;
+  background-color: black;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-top: 2%;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+
+}
+
+.feedback-input:focus { border:2px solid #7B1E8C; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#7B1E8C;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top: 4px;
+  font-weight:700;
+}
+
+
+[type="submit"]:hover { background:#c342cf; }
+
+.donate-button a {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:600;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: #7B1E8C;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 15px;
+  width:100%;
+  box-sizing: border-box;
+  text-decoration: none;
+  margin-left: 20%;
+  margin-bottom: 10%;
+}
+
+p {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+h1 {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+h2 {
+
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 24px;
+  line-height: 22px;
+  text-align: center;
+  background-color: transparent;
+  border:2px solid #7B1E8C;
+  transition: all 0.3s;
+  padding: 13px;
+  margin: auto;
+  margin-top: auto;
+  margin-bottom: 5%;
+  width:80%;
+  box-sizing: content-box;
+  outline:0;
+
+}
+
+
+.boxed-images img {
+  border:2px solid #7B1E8C;
+  width: 60%;
+}
+
+.feedback-confirmation a {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#7B1E8C;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top: 4px;
+  margin-left: 35%;
+  font-weight:700;
+  text-decoration: none;
+}
+
